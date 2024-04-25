@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(90deg, #4c114f 0%, #ea1172 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.age-calculator {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.age-calculator h1 {
+  font-size: 60px;
+  margin: 40px;
+  background: linear-gradient(90deg, #26065e 0%, #da19e8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.age-calculator input[type="date"] {
+  border-radius: 10px;
+  width: 50%;
+  padding: 20px;
+  margin-bottom: 30px;
+  display: block;
+  font-size: 25px;
+}
+
+.age-calculator button {
+  background: linear-gradient(90deg, #520964 0%, #3a2399 100%);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.age-calculator .errormsg{
+  color: rgb(227, 25, 25);
+}
+
+.age-calculator .content{
+  margin-top: 20px;
+  font-size: 20px;
+}
+.age-calculator .content{
+  margin-top: 20px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.age-calculator .content .year,.month,.day{
+  width: 100px;
+  height: 200px;
+  text-align: center;
+  background-color: #e9dbec;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 0 10px;
+}
+.age-calculator .content .year p,.month p,.day p{
+  font-size: 40px;
+  font-weight: bold;
+  color: #831e8b;
+}
+.age-calculator .content .year h5,.month h5,.day h5{
+  font-size: 20px;
+  color:#090909;
+  padding: 20px;
+}
+.age-calculator .desc{
+  color: rgba(73, 18, 77, 0.808);
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
